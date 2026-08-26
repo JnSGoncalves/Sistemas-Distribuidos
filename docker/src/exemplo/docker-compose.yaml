@@ -1,0 +1,8 @@
+services:
+  teste:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: cc7261:teste
+    volumes:
+      - .:/arquivos
